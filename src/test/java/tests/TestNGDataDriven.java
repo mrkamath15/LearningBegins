@@ -11,7 +11,6 @@ import utilities.ExcelReader;
 
 public class TestNGDataDriven extends BaseTest {
 
-
     @Test(enabled = true, priority = 1101)
     @Parameters("browser")
     public void paramTest(@Optional("Firefox") String browser) {

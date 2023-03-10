@@ -20,9 +20,6 @@ public class DriverCommandsTest extends BaseTest {
         System.out.println("Windows Handles: " + driver.getWindowHandles());
     }
 
-
-
-
     public void explicitWaitTest() throws MalformedURLException {
         driver.navigate().to(new URL("https://www.screener.in/"));
         driver.findElement(By.xpath("//div[@class='home-search']//input[@placeholder='Search for a company']")).sendKeys("Adani");
